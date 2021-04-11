@@ -1,2 +1,7 @@
 /* Add JavaScript code here! */
-console.log('Hello World! You did it! Welcome to Snowpack :D');
+import "./global.scss";
+import Main from "./main/Main.svelte";
+
+const app = new Main({
+  target: document.body,
+});
